@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		44CD69FD2307D3BA00E27A92 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 44CD69FC2307D3BA00E27A92 /* main.c */; };
+		44EBC9AE23267561003D74B7 /* deck.c in Sources */ = {isa = PBXBuildFile; fileRef = 44EBC9AD23267561003D74B7 /* deck.c */; };
+		44EBC9B1232677E1003D74B7 /* player.c in Sources */ = {isa = PBXBuildFile; fileRef = 44EBC9B0232677E1003D74B7 /* player.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		44CD69F92307D3BA00E27A92 /* AR0062 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AR0062; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CD69FC2307D3BA00E27A92 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		44EBC9AC23267561003D74B7 /* deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = deck.h; sourceTree = "<group>"; };
+		44EBC9AD23267561003D74B7 /* deck.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = deck.c; sourceTree = "<group>"; };
+		44EBC9AF232677E1003D74B7 /* player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+		44EBC9B0232677E1003D74B7 /* player.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = player.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				44CD69FC2307D3BA00E27A92 /* main.c */,
+				44EBC9AF232677E1003D74B7 /* player.h */,
+				44EBC9B0232677E1003D74B7 /* player.c */,
+				44EBC9AC23267561003D74B7 /* deck.h */,
+				44EBC9AD23267561003D74B7 /* deck.c */,
 			);
 			path = AR0062;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44EBC9AE23267561003D74B7 /* deck.c in Sources */,
+				44EBC9B1232677E1003D74B7 /* player.c in Sources */,
 				44CD69FD2307D3BA00E27A92 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
